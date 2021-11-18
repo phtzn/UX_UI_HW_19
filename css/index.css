@@ -29,7 +29,7 @@ body{
 .heroImg h1{
     font-family: "Proxima Nova Bold", sans-serif;
     color: white;
-    font-size: 72px;
+    font-size: 80px;
     margin-left: 200px;
     margin-right: 600px;
 }
@@ -37,7 +37,7 @@ body{
 .heroImg h2{
     font-family: "Proxima Nova Light", sans-serif;
     color: white;
-    font-size: 36px;
+    font-size: 48px;
     margin-left: 200px;
     margin-right: 100px;
 }
@@ -55,7 +55,7 @@ body{
 
 .content img {
     padding:3%;
-    height:400px;
+    height: 450px;
     border-radius: 15%;
     float: right;
     margin-right:200px;
@@ -253,7 +253,15 @@ a:visited {
     margin-left: 200px;
     margin-right: 250px;
 }
+
+.banner img {
+    width:100%;
+    display: block;
+    margin: auto;   
+    justify-content: center;
+    align-items: center;
 }
+
 
 .work1 {
     display: grid;
@@ -281,7 +289,7 @@ a:visited {
     width: 150px;
     font-family: "Proxima Nova Semibold", sans-serif;
     font-size: 16px;
-    padding: 5%;
+    padding: 2%;
     border-radius: 40px;
     border-style: none;
 }
