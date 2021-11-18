@@ -1,0 +1,320 @@
+body{
+    background-color: black;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.logo img{
+    width: 80px;
+    opacity: 40%;
+    padding: 10%;
+    margin-left: 20px;
+}
+.navigation{
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.inline-block ul {
+    list-style-type: none;
+    font-family: "Proxima Nova Semibold",sans-serif;
+    font-size: 12px;
+    opacity: 60%;
+  }
+
+.heroImg h1{
+    font-family: "Proxima Nova Bold", sans-serif;
+    color: white;
+    font-size: 80px;
+    margin-left: 200px;
+    margin-right: 600px;
+}
+
+.heroImg h2{
+    font-family: "Proxima Nova Light", sans-serif;
+    color: white;
+    font-size: 42px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+
+.inline-block li{
+      color: white;
+      float: left;
+      padding: 30px;
+      display: block;
+  }
+
+.content{
+    padding:2%;
+}
+
+.content img {
+    padding:3%;
+    height:450px;
+    border-radius: 15%;
+    float: right;
+    margin-right:200px;
+}
+
+footer{
+    background-color:#161616;
+    height: 250px;
+}
+
+.left p {
+    margin-left: 200px;
+}
+
+.left {
+    display: inline-block;
+    padding: 2%;
+    width:30%;
+    font-family: "Proxima Nova Semibold", sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.left img {
+    margin-right: 200px;
+    margin-left: 200px;
+    height: 70px;
+    opacity: 60%;
+}
+
+
+.sociallinks {
+    display: inline-block;
+    padding: 2%;
+    width:30%;
+    float: right;
+    text-align: right;
+    margin-right: 200px;
+    font-family: "Proxima Nova Semibold", sans-serif;
+    color: white;
+    font-size: 12px;
+    opacity: 60%;
+}
+
+a:link{
+    color: white;
+}
+a:visited {
+    color: magenta;
+}
+
+// MY SKILLS SECTION //
+
+.mySkills {
+    display:flex;
+    flex-direction: column;
+}
+
+.mySkills h1{
+    font-family: "Proxima Nova Bold", sans-serif;
+    color: white;
+    font-size: 72px;
+    text-align: center;
+}
+.mySkills h3 {
+    font-family: "Proxima Nova Semibold", sans-serif;
+    color: white;
+    font-size: 18px;
+    opacity: 60%;
+}
+
+.mySkills ul {
+    font-family: "Proxima Nova Semibold", sans-serif;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+}
+
+.flexContainer{
+    display: flex;
+}
+.apps {
+    float:left;
+    width:33%;
+    padding:2%;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.apps h2 {
+    font-family: "Proxima Nova Light", sans-serif;
+    color: white;
+    font-size: 36px;
+    text-align: left;
+}
+.tools {
+    float:left;
+    width:33%;
+    padding:2%;
+    margin-left: 200px;
+    margin-right:200px;
+}
+.tools h2 {
+    font-family: "Proxima Nova Light", sans-serif;
+    color: white;
+    font-size: 36px;
+    text-align: left;
+}
+.tools ul{
+    font-family: "Proxima Nova Semibold", sans-serif;
+    color: white;
+}
+
+.logos {
+    width 20%;
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+.logos img {
+    height:20px;
+    padding: 3%;
+}
+
+.backtohomepage{
+    display:block;
+    margin:auto;
+    background-color: #23C5A4;
+    color: black;
+    font-family: "Proxima Nova Semibold", sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 40px;
+    border-color: #23C5A4;
+
+}
+
+
+.myWork {
+    margin-left: 200px;
+}
+.myWork h1{
+    font-family: "Proxima Nova Bold", sans-serif;
+    color: white;
+    font-size: 72px;
+    padding: 2%;
+}
+.myWork h2 {
+    font-family: "Proxima Nova Bold", sans-serif;
+    color: white;
+    font-size: 36px;
+    padding: 2%;
+}
+.myWork p{
+    font-family: "Proxima Nova Light", sans-serif;
+    color: white;
+    font-size: 18px;
+    padding: 2%;
+}
+
+.cfhtext{
+    grid-area: cfhtext;
+}
+
+.cfhimage{
+    grid-area: cfhimage;
+}
+.cfhimage img {
+    width:600px;
+    margin-left: 200px;
+    margin-right: 250px;
+}
+.logotxt{
+    grid-area: logotxt;
+}
+.logoimg{
+    grid-area: logoimg;
+}
+.logoimg img{
+    width:600px;
+    margin-left: 200px;
+    margin-right: 250px;
+
+}
+.doitext{
+    grid-area: doitext;
+}
+.doiimg{
+    grid-area: doiimg;
+
+}
+.doiimg img{
+    width:600px;
+    margin-left: 200px;
+    margin-right: 250px;
+}
+}
+
+.work1 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: "doitext doiimg";
+    padding:2%;
+}
+.work2{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: "cfhtext cfhimage";
+    padding:2%;
+}
+
+.work3{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: "logotxt logoimg";
+    padding:2%;
+}
+
+.myWork button {
+    background-color: grey;
+    color: black;
+    width: 20 0px;
+    font-family: "Proxima Nova Semibold", sans-serif;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 40px;
+    border-color: none;
+
+}
+
+
+@media only screen and (max-width: 600){
+    .myWork{
+        display: flex;
+        flex-direction: column;
+    }
+    .work1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px;
+        grid-template-areas: 
+        "doitext" 
+        "doiimg";
+    
+    }
+    .work2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px;
+        grid-template-areas: 
+        "cfhtext" 
+        "cfhimage";
+    }
+    
+    .work3{
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px;
+        grid-template-areas: 
+        "logotxt" 
+        "logoimg";
+
+    }
+
+}
