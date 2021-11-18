@@ -187,9 +187,10 @@ a:visited {
     color: black;
     font-family: "Proxima Nova Semibold", sans-serif;
     font-size: 16px;
-    padding: 15px;
+    width: 200px;
+    padding: 1%;
     border-radius: 40px;
-    border-color: #23C5A4;
+    border-style: none;
 
 }
 
@@ -277,13 +278,12 @@ a:visited {
 .myWork button {
     background-color: grey;
     color: black;
-    width: 20 0px;
+    width: 150px;
     font-family: "Proxima Nova Semibold", sans-serif;
     font-size: 16px;
-    padding: 15px;
+    padding: 5%;
     border-radius: 40px;
-    border-color: none;
-
+    border-style: none;
 }
 
 
