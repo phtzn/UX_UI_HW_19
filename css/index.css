@@ -263,6 +263,12 @@ a:visited {
 }
 
 
+.work1 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: "doitext doiimg";
+    padding:2%;
+}
 .work2{
     display: grid;
     grid-template-columns: 2fr 3fr;
